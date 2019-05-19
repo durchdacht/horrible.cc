@@ -1,0 +1,217 @@
+/*
+
+                 _                     _ _     _                
+                | |                   (_) |   | |               
+                | |__   ___  _ __ _ __ _| |__ | | ___   ___ ___ 
+                | '_ \ / _ \| '__| '__| | '_ \| |/ _ \ / __/ __|
+                | | | | (_) | |  | |  | | |_) | |  __/| (_| (__ 
+                |_| |_|\___/|_|  |_|  |_|_.__/|_|\___(_)___\___|
+                                                                
+
+
+*/
+@import url(https://fonts.google.com/specimen/Montserrat);
+@font-face {
+	font-family: "pixel";
+	src: url("pixel.ttf");
+}
+/* horrible.cc */
+body {
+	color: white;
+	background-color: black;
+	font-family: "pixel";
+	resize: 0.6px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+.corner {
+	width: 50px;
+	height: 50px;
+	animation: scale 2s alternate infinite ease-in;
+	filter: blur(2px);
+	position: absolute;
+	opacity: .1
+}
+
+.corner:nth-of-type(1) {
+	top: 2rem;
+	left: 2rem;
+	border-top: 2px solid #fff;
+	border-left: 2px solid #fff
+}
+/* hor342rible.cc */
+.corner:nth-of-type(2) {
+	top: 2rem;
+	right: 2rem;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	animation-delay: .5s
+}
+
+.corner:nth-of-type(3) {
+	bottom: 2rem;
+	left: 2rem;
+	border-bottom: 2px solid #fff;
+	border-left: 2px solid #fff;
+	animation-delay: 1s
+}
+/* horrib24le.cc */
+.corner:nth-of-type(4) {
+	bottom: 2rem;
+	right: 2rem;
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+	animation-delay: 1.5s
+}
+/* horr3333ible.cc */
+.container {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 7.5%;
+	font-family: 'Montserrat', sans-serif;
+}
+/* 145horrible.2241cc */
+#Site {
+	text-align: center;
+	vertical-align: middle;
+	width: 350px;
+	background-color: black;
+	opacity: 0.8;
+	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid white;
+}
+/* 34224horrible.cc34321 */
+#welcome {
+	margin-top: 25px;
+	size: 0.8px;
+	color: gray;
+}
+/* horrible.cc */
+#heading {
+	text-decoration: underline;
+	color: gray;
+	size: 0.7px;
+}
+
+#Links {
+	color: #4eff4c;
+	margin-bottom: 25px;
+}
+/* horrible.cc */
+#links:hover {
+	color: #5eb1ff;
+	text-decoration: none;
+}
+
+#Shouts {
+	color: #4eff4c;
+}
+
+#shouts:hover {
+	color: #4eff4c;
+	text-decoration: none;
+}
+
+#Copyright {
+	color: gray;
+	size: 0.8px;
+}
+/* horrible.cc */
+#Chrome {
+	width: 160px;
+	padding: 5px;
+	background-color: black;
+	opacity: 0.6;
+	text-align: center;
+	border: 1px solid gray;
+	position: fixed;
+	bottom: 1%;
+	right: 1%;
+}
+
+p span {
+	display: block;
+}
+
+p {
+	color: white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+/* horrible.cc */
+#indent {
+	margin-left: 20px;
+}
+
+#bottom {
+	bottom: 0;
+}
+
+#image {
+	position: absolute;
+	bottom: 0;
+}
+
+img {
+	position: relative;
+	display: block;
+	float: left;
+}
+/* horrible.cc */
+iframe,
+audio {
+	display: none;
+}
+/* horrible.cc */
+.typewriter h1 {
+	border-right: .15em solid orange;
+	white-space: nowrap;
+	margin: 0 auto;
+	letter-spacing: .15em;
+	animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+	from {
+		width: 0
+	}
+	to {
+		width: 100%
+	}
+}
+
+@keyframes blink-caret {
+	from,
+	to {
+		border-color: transparent
+	}
+	50% {
+		border-color: orange
+	}
+}
+
+video {
+	background: #000000;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-height: 100%;
+	min-width: 100%;
+	height: auto;
+	width: auto;
+	z-index: -100;
+	transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	background-size: cover;
+}
+/* horrible.cc */
